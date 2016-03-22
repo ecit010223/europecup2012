@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scorelinepanel_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left|center_vertical"
+    android:orientation="horizontal"
+    android:padding="3dp" >
+
+    <TextView
+        android:id="@+id/txtScoreSequence_title"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:text="@string/sb_title_Seq" />
+
+    <TextView
+        android:id="@+id/txt_scorebar_name_title"
+        android:layout_width="23dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/sb_title_T" />
+
+
+    <TextView
+        android:id="@+id/txt_scorebar_w_title"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:textStyle="bold"
+        android:text="@string/sb_title_W" />
+
+    <TextView
+        android:id="@+id/txt_scorebar_d_title"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:textStyle="bold"
+        android:text="@string/sb_title_D" />
+
+    <TextView
+        android:id="@+id/txt_scorebar_l_title"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:textStyle="bold"
+        android:text="@string/sb_title_L" />
+
+    <TextView
+        android:id="@+id/txt_scorebar_goal_title"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:textStyle="bold"
+        android:text="@string/sb_title_F" />
+
+    <TextView
+        android:id="@+id/txt_scorebar_lgoal_title"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:textStyle="bold"
+        android:text="@string/sb_title_A" />
+
+    <TextView
+        android:id="@+id/txt_scorebar_score_title"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:textStyle="bold"
+        android:text="@string/sb_title_Pts" />
+
+</LinearLayout>

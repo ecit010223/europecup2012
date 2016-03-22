@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="app_name">EuropeCup2012</string>
+    
+    <string name="sb_title_Seq">Seq</string>
+    <string name="sb_title_T">T</string>
+    <string name="sb_title_W">W</string>
+    <string name="sb_title_D">D</string>
+    <string name="sb_title_L">L</string>
+    <string name="sb_title_F">F</string>
+    <string name="sb_title_A">A</string>
+    <string name="sb_title_Pts">Pts</string>
+    
+    <style name="Theme.EuropeCup2012" parent="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <string-array name="country">
+        <item>Russian</item>
+        <item>Poland</item>
+        <item>Greece</item>
+        <item>Czech</item>
+        <item>Netherlands</item>
+        <item>Germany</item>
+        <item>Portugal</item>
+        <item>Denmark</item>
+        <item>Spain</item>
+        <item>Italy</item>
+        <item>Ireland</item>
+        <item>Croatia</item>
+        <item>England</item>
+        <item>France</item>
+        <item>Sweden</item>
+        <item>Ukraine</item>
+    </string-array>
+	
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scoreresultpanel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left|center_vertical"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    android:padding="3dp" >
+
+    <!--  <LinearLayout
+        android:id="@+id/scoreresultpanel_left"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >-->
+
+        <ImageView
+            android:id="@+id/playerstatus_home"
+ 			android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginRight="3dp"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/txtPlayerName_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_horizontal"
+            android:textSize="10sp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/txtTime_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_horizontal"
+            android:textSize="10sp"
+            android:layout_marginRight="5dp" />
+    <!--  </LinearLayout>
+    <LinearLayout
+        android:id="@+id/scoreresultpanel_right"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="left|center_vertical" >-->
+
+        <ImageView
+            android:id="@+id/playerstatus_away"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginRight="3dp"
+            android:contentDescription="@null"/>
+
+        <TextView
+            android:id="@+id/txtPlayerName_away"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_horizontal"
+            android:textSize="10sp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/txtTime_away"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_horizontal"
+            android:textSize="10sp"
+            android:layout_marginRight="5dp" />
+    <!--  </LinearLayout>-->
+</LinearLayout>
